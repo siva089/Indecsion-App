@@ -1,0 +1,33 @@
+.addOption__text{
+    color:$off-white;
+    font-style: italic;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    margin:$m-size 0 0 0;
+    padding:0 $m-size;
+}
+.add-option{
+    display:flex;
+   
+    padding:$m-size;
+}
+.add-input{
+    background:$off-blue;
+    flex-grow:1;
+    border:none;
+    border-bottom:.3rem solid darker($off-blue,105);
+    margin-right:$s-size;
+    color:$off-white;
+    padding:$s-size;
+}
+@media (max-width:$desktop-breakpoint){
+.add-option{
+display:flex;
+flex-direction:column;
+
+}
+.add-input{
+    margin-bottom:1rem;
+}
+}
